@@ -1,0 +1,1 @@
+/home/wang/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc CMakeFiles/01test.dir/src/main.c.o -o 01test
