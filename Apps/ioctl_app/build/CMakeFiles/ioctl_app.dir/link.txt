@@ -1,0 +1,1 @@
+/home/wang/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc CMakeFiles/ioctl_app.dir/src/ioctl_app.c.o -o ioctl_app

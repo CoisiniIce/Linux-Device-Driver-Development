@@ -1,3 +1,4 @@
 {
-  "cmake.sourceDirectory": "/home/wang/my_projects/Driver_and_App_Workspace/Apps/01test"
+  "cmake.sourceDirectory": "/home/wang/my_projects/Driver_and_App_Workspace/Apps/01test",
+  "cmake.ignoreCMakeListsMissing": true
 }

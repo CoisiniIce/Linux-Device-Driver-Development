@@ -57,10 +57,10 @@ RM = /home/wang/my_softwares/cmake-4.1.1-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test
+CMAKE_SOURCE_DIR = /home/wang/my_projects/Driver_and_App_Workspace/Apps/ioctl_app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build
+CMAKE_BINARY_DIR = /home/wang/my_projects/Driver_and_App_Workspace/Apps/ioctl_app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,17 +87,10 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build/CMakeFiles /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/ioctl_app/build/CMakeFiles /home/wang/my_projects/Driver_and_App_Workspace/Apps/ioctl_app/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/ioctl_app/build/CMakeFiles 0
 .PHONY : all
-
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build/CMakeFiles /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/my_projects/Driver_and_App_Workspace/Apps/01test/build/CMakeFiles 0
-.PHONY : codegen
 
 # The main clean target
 clean:
@@ -124,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 01test
+# Target rules for targets named ioctl_app
 
 # Build rule for target.
-01test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01test
-.PHONY : 01test
+ioctl_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ioctl_app
+.PHONY : ioctl_app
 
 # fast build rule for target.
-01test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01test.dir/build.make CMakeFiles/01test.dir/build
-.PHONY : 01test/fast
+ioctl_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ioctl_app.dir/build.make CMakeFiles/ioctl_app.dir/build
+.PHONY : ioctl_app/fast
 
-src/main.o: src/main.c.o
-.PHONY : src/main.o
+src/ioctl_app.o: src/ioctl_app.c.o
+.PHONY : src/ioctl_app.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01test.dir/build.make CMakeFiles/01test.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/ioctl_app.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ioctl_app.dir/build.make CMakeFiles/ioctl_app.dir/src/ioctl_app.c.o
+.PHONY : src/ioctl_app.c.o
 
-src/main.i: src/main.c.i
-.PHONY : src/main.i
+src/ioctl_app.i: src/ioctl_app.c.i
+.PHONY : src/ioctl_app.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01test.dir/build.make CMakeFiles/01test.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/ioctl_app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ioctl_app.dir/build.make CMakeFiles/ioctl_app.dir/src/ioctl_app.c.i
+.PHONY : src/ioctl_app.c.i
 
-src/main.s: src/main.c.s
-.PHONY : src/main.s
+src/ioctl_app.s: src/ioctl_app.c.s
+.PHONY : src/ioctl_app.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01test.dir/build.make CMakeFiles/01test.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/ioctl_app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ioctl_app.dir/build.make CMakeFiles/ioctl_app.dir/src/ioctl_app.c.s
+.PHONY : src/ioctl_app.c.s
 
 # Help Target
 help:
@@ -166,13 +159,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 01test"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... ioctl_app"
+	@echo "... src/ioctl_app.o"
+	@echo "... src/ioctl_app.i"
+	@echo "... src/ioctl_app.s"
 .PHONY : help
 
 
