@@ -1,0 +1,15 @@
+#ifndef __IOCTL_HEADER_H__
+#define __IOCTL_HEADER_H__
+
+#define TEST_MAGIC 'T'
+#define TEST_NODATA_NO 0x01
+#define TEST_READ_NO 0x02
+#define TEST_WRITE_NO 0x03
+
+#define TEST_MAX_WRITE 32
+
+#define TEST_NODATA _IO(TEST_MAGIC, TEST_NODATA_NO)
+#define TEST_READ _IOR(TEST_MAGIC, TEST_READ_NO, int *)
+#define TEST_WRITE _IOW(TEST_MAGIC, TEST_WRITE_NO, char *)
+
+#endif

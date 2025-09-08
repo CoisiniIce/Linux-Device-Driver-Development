@@ -1,0 +1,1 @@
+cmd_/home/wang/my_sources/Linux-4.9.88/my_drivers/01test/01test.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/wang/my_sources/Linux-4.9.88/my_drivers/01test/01test.ko /home/wang/my_sources/Linux-4.9.88/my_drivers/01test/01test.o /home/wang/my_sources/Linux-4.9.88/my_drivers/01test/01test.mod.o ;  true

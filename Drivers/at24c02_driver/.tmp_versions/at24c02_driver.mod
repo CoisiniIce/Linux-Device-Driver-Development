@@ -1,0 +1,3 @@
+/home/wang/my_sources/Linux-4.9.88/my_drivers/at24c02_driver/at24c02_driver.ko
+/home/wang/my_sources/Linux-4.9.88/my_drivers/at24c02_driver/at24c02_driver.o
+

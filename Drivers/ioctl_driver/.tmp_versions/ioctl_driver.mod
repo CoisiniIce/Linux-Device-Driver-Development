@@ -1,0 +1,3 @@
+/home/wang/my_sources/Linux-4.9.88/my_drivers/ioctl_driver/ioctl_driver.ko
+/home/wang/my_sources/Linux-4.9.88/my_drivers/ioctl_driver/ioctl_driver.o
+

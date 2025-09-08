@@ -1,0 +1,3 @@
+/home/wang/my_sources/Linux-4.9.88/my_drivers/dht11_driver/dht11_driver.ko
+/home/wang/my_sources/Linux-4.9.88/my_drivers/dht11_driver/dht11_driver.o
+
