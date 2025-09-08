@@ -1,0 +1,1 @@
+/home/wang/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc CMakeFiles/at24c02_app.dir/src/at24c02_app.c.o -o at24c02_app
