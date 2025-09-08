@@ -1,0 +1,1 @@
+/home/wang/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc CMakeFiles/dht11_app.dir/src/dht11_app.c.o -o dht11_app
